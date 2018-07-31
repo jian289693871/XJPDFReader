@@ -1,0 +1,5 @@
+target 'XJPDFReaderDemo' do
+    pod 'XJPDFReader', :path => '../'
+    pod 'XXDownloader', '~> 1.0.0'
+end
+

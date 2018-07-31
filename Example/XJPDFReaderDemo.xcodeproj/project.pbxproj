@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191779AF87B29266901AD785 /* libPods-XJPDFReaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B4DBF3EFB7EC048E360F99 /* libPods-XJPDFReaderDemo.a */; };
+		C298203F2110481E00FB1373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C298203E2110481E00FB1373 /* AppDelegate.m */; };
+		C29820422110481E00FB1373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29820412110481E00FB1373 /* ViewController.m */; };
+		C29820452110481E00FB1373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29820432110481E00FB1373 /* Main.storyboard */; };
+		C29820472110481E00FB1373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29820462110481E00FB1373 /* Assets.xcassets */; };
+		C298204A2110481E00FB1373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29820482110481E00FB1373 /* LaunchScreen.storyboard */; };
+		C298204D2110481E00FB1373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C298204C2110481E00FB1373 /* main.m */; };
+		C298205721104B0900FB1373 /* a2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C298205621104B0900FB1373 /* a2.pdf */; };
+		C298205A21104B1E00FB1373 /* PDFDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C298205821104B1E00FB1373 /* PDFDemoViewController.m */; };
+		C298205C21104B2D00FB1373 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C298205B21104B2D00FB1373 /* sample.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89B4DBF3EFB7EC048E360F99 /* libPods-XJPDFReaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XJPDFReaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991E050AD8E33EDF877A837 /* Pods-XJPDFReaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJPDFReaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJPDFReaderDemo/Pods-XJPDFReaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C11CCDA2372CEC711E6BAB75 /* Pods-XJPDFReaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJPDFReaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJPDFReaderDemo/Pods-XJPDFReaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C298203A2110481E00FB1373 /* XJPDFReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJPDFReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C298203D2110481E00FB1373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C298203E2110481E00FB1373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C29820402110481E00FB1373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C29820412110481E00FB1373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C29820442110481E00FB1373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C29820462110481E00FB1373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C29820492110481E00FB1373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C298204B2110481E00FB1373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C298204C2110481E00FB1373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C298205621104B0900FB1373 /* a2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = a2.pdf; sourceTree = "<group>"; };
+		C298205821104B1E00FB1373 /* PDFDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDemoViewController.m; sourceTree = "<group>"; };
+		C298205921104B1E00FB1373 /* PDFDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDemoViewController.h; sourceTree = "<group>"; };
+		C298205B21104B2D00FB1373 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29820372110481E00FB1373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191779AF87B29266901AD785 /* libPods-XJPDFReaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26409FCBA3701D1437E0F324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B4DBF3EFB7EC048E360F99 /* libPods-XJPDFReaderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29820312110481E00FB1373 = {
+			isa = PBXGroup;
+			children = (
+				C298203C2110481E00FB1373 /* XJPDFReaderDemo */,
+				C298203B2110481E00FB1373 /* Products */,
+				CD483755EA5F8B9C241C6CFA /* Pods */,
+				26409FCBA3701D1437E0F324 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C298203B2110481E00FB1373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C298203A2110481E00FB1373 /* XJPDFReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C298203C2110481E00FB1373 /* XJPDFReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C298205621104B0900FB1373 /* a2.pdf */,
+				C298205B21104B2D00FB1373 /* sample.pdf */,
+				C298203D2110481E00FB1373 /* AppDelegate.h */,
+				C298203E2110481E00FB1373 /* AppDelegate.m */,
+				C29820402110481E00FB1373 /* ViewController.h */,
+				C29820412110481E00FB1373 /* ViewController.m */,
+				C298205921104B1E00FB1373 /* PDFDemoViewController.h */,
+				C298205821104B1E00FB1373 /* PDFDemoViewController.m */,
+				C29820432110481E00FB1373 /* Main.storyboard */,
+				C29820462110481E00FB1373 /* Assets.xcassets */,
+				C29820482110481E00FB1373 /* LaunchScreen.storyboard */,
+				C298204B2110481E00FB1373 /* Info.plist */,
+				C298204C2110481E00FB1373 /* main.m */,
+			);
+			path = XJPDFReaderDemo;
+			sourceTree = "<group>";
+		};
+		CD483755EA5F8B9C241C6CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A991E050AD8E33EDF877A837 /* Pods-XJPDFReaderDemo.debug.xcconfig */,
+				C11CCDA2372CEC711E6BAB75 /* Pods-XJPDFReaderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29820392110481E00FB1373 /* XJPDFReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29820502110481E00FB1373 /* Build configuration list for PBXNativeTarget "XJPDFReaderDemo" */;
+			buildPhases = (
+				9886FC5D8C983DCDCDD5CC5B /* [CP] Check Pods Manifest.lock */,
+				C29820362110481E00FB1373 /* Sources */,
+				C29820372110481E00FB1373 /* Frameworks */,
+				C29820382110481E00FB1373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJPDFReaderDemo;
+			productName = XJPDFReaderDemo;
+			productReference = C298203A2110481E00FB1373 /* XJPDFReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29820322110481E00FB1373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xuejian;
+				TargetAttributes = {
+					C29820392110481E00FB1373 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C29820352110481E00FB1373 /* Build configuration list for PBXProject "XJPDFReaderDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C29820312110481E00FB1373;
+			productRefGroup = C298203B2110481E00FB1373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29820392110481E00FB1373 /* XJPDFReaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29820382110481E00FB1373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C298204A2110481E00FB1373 /* LaunchScreen.storyboard in Resources */,
+				C298205721104B0900FB1373 /* a2.pdf in Resources */,
+				C29820472110481E00FB1373 /* Assets.xcassets in Resources */,
+				C29820452110481E00FB1373 /* Main.storyboard in Resources */,
+				C298205C21104B2D00FB1373 /* sample.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9886FC5D8C983DCDCDD5CC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XJPDFReaderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29820362110481E00FB1373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C298205A21104B1E00FB1373 /* PDFDemoViewController.m in Sources */,
+				C29820422110481E00FB1373 /* ViewController.m in Sources */,
+				C298204D2110481E00FB1373 /* main.m in Sources */,
+				C298203F2110481E00FB1373 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C29820432110481E00FB1373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29820442110481E00FB1373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C29820482110481E00FB1373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29820492110481E00FB1373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C298204E2110481E00FB1373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C298204F2110481E00FB1373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29820512110481E00FB1373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A991E050AD8E33EDF877A837 /* Pods-XJPDFReaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 853BSZGXB8;
+				INFOPLIST_FILE = XJPDFReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJPDFReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C29820522110481E00FB1373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11CCDA2372CEC711E6BAB75 /* Pods-XJPDFReaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 853BSZGXB8;
+				INFOPLIST_FILE = XJPDFReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJPDFReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29820352110481E00FB1373 /* Build configuration list for PBXProject "XJPDFReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C298204E2110481E00FB1373 /* Debug */,
+				C298204F2110481E00FB1373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29820502110481E00FB1373 /* Build configuration list for PBXNativeTarget "XJPDFReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29820512110481E00FB1373 /* Debug */,
+				C29820522110481E00FB1373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C29820322110481E00FB1373 /* Project object */;
+}

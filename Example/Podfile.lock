@@ -1,0 +1,24 @@
+PODS:
+  - XJPDFReader (1.0.0):
+    - XXDownloader (~> 1.0.0)
+  - XXDownloader (1.0.0)
+
+DEPENDENCIES:
+  - XJPDFReader (from `../`)
+  - XXDownloader (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XXDownloader
+
+EXTERNAL SOURCES:
+  XJPDFReader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XJPDFReader: 682c3198561a4474c2281a3a35c123dcd18699d0
+  XXDownloader: dfbed9e9475518a9dbdd5481f7ebcc458f6f48fc
+
+PODFILE CHECKSUM: df7dfb4be5b2d236a902475c48fa8091c542327e
+
+COCOAPODS: 1.5.3
