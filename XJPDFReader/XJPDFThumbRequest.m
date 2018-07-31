@@ -85,7 +85,10 @@
 
 - (NSString *)key {
     if (!_key) {
-        _key = [NSString stringWithFormat:@"%@_%ld_%ld*%ld", [self md5:self.pdfDocument.filePath], self.page, (long)self.thumbSize.width, (long)self.thumbSize.height];
+        int width = (int)self.thumbSize.width;
+        int height = (int)self.thumbSize.width;
+        int page = (int)self.page;
+        _key = [NSString stringWithFormat:@"%@_%d_%d*%d", [self md5:self.pdfDocument.filePath], page, width, height];
     }
     return _key;
 }
