@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XJPDFReader"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "PDF Reader"
   s.homepage     = "https://github.com/jian289693871/XJPDFReader"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
