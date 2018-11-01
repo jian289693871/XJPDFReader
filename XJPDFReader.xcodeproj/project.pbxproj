@@ -110,14 +110,14 @@
 		C29820542110496400FB1373 /* PDFThumbPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C29820012110432300FB1373 /* XJPDFThumbDocumentCell.h */,
+				C2981FFD2110432300FB1373 /* XJPDFThumbDocumentCell.m */,
+				C2981FFC2110432300FB1373 /* XJPDFThumbOperation.h */,
+				C2981FFF2110432300FB1373 /* XJPDFThumbOperation.m */,
+				C2981FFE2110432300FB1373 /* XJPDFThumbReaderViewController.h */,
 				C2981FFA2110432300FB1373 /* XJPDFThumbReaderViewController.m */,
 				C2981FFB2110432300FB1373 /* XJPDFThumbRequest.h */,
-				C2981FFC2110432300FB1373 /* XJPDFThumbOperation.h */,
-				C2981FFD2110432300FB1373 /* XJPDFThumbDocumentCell.m */,
-				C2981FFE2110432300FB1373 /* XJPDFThumbReaderViewController.h */,
-				C2981FFF2110432300FB1373 /* XJPDFThumbOperation.m */,
 				C29820002110432300FB1373 /* XJPDFThumbRequest.m */,
-				C29820012110432300FB1373 /* XJPDFThumbDocumentCell.h */,
 			);
 			name = PDFThumbPageViewController;
 			sourceTree = "<group>";

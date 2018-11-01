@@ -78,8 +78,8 @@
     } else if ([keyPath isEqualToString:@"isSelectedPage"]) {
         BOOL isSelectedPage = [[change objectForKey:NSKeyValueChangeNewKey] boolValue];
         if (isSelectedPage) {
-            _thumbImageView.layer.borderColor = [UIColor colorWithRed:255/255.0 green:100/255.0 blue:20/255.0 alpha:1/1.0].CGColor;
-            _thumbImageView.layer.borderWidth = 2;
+            _thumbImageView.layer.borderColor = [UIColor colorWithRed:247/255.0 green:106/255.0 blue:43/255.0 alpha:1/1.0].CGColor;
+            _thumbImageView.layer.borderWidth = 0.5;
         } else {
             _thumbImageView.layer.borderColor = [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1/1.0].CGColor;
             _thumbImageView.layer.borderWidth = 0.5;
